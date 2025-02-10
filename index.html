@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=https://formbit24.weebly.com">
-  </head>
-  <body>
-    <!-- Opzionale: Messaggio per browser che non supportano il redirect -->
-    <p>Reindirizzamento in corso... <a href="https://formbit24.weebly.com">Clicca qui</a>.</p>
-  </body>
+<head>
+    <title>Formbit24 - Blog di divulgazione informatica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Meta per crawler SEO -->
+    <meta name="robots" content="noindex, nofollow"> <!-- Opzionale: evita indicizzazione -->
+    <style>
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://formbit24.weebly.com" frameborder="0"></iframe>
+    <!-- Messaggio di fallback per browser che bloccano gli iframe -->
+    <noscript>
+        <p>Il redirect non funziona? <a href="https://formbit24.weebly.com">Clicca qui per accedere al sito</a>.</p>
+    </noscript>
+</body>
 </html>
